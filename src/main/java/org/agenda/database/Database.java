@@ -17,7 +17,7 @@ import java.util.List;
 
 public class Database {
     Path dbPath;
-    List<Contact> contacts;
+    private List<Contact> contacts;
     private static Database instance;
 
     private Database() {
